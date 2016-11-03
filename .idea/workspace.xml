@@ -135,7 +135,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -149,7 +149,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -270,12 +272,12 @@
       <workItem from="1478101037439" duration="3334000" />
       <workItem from="1478117449434" duration="1697000" />
       <workItem from="1478138324372" duration="1133000" />
-      <workItem from="1478194456949" duration="5279000" />
+      <workItem from="1478194456949" duration="5349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18403000" />
+    <option name="totallyTimeSpent" value="18473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
