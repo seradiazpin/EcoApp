@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>EcoApp</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../fonts/glyphicons-halflings-regular.svg">
+    <link rel="stylesheet" href="../css/devices.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="text-center">
+<button id="fixedbutton" class="btn btn-success" onclick="deviceView('img/android-status-bar.svg')"><i class="glyphicon glyphicon-phone"> </i>Device View</button>
+<div id="device-container">
+    <div id="device-screen" class="white-background container-fluid">
+        <!-- header -->
+        <div class="row android-header">
+            <h1 class="text-center fredoka-font">RECICLAPP</h1>
+        </div>
+        <!-- Content -->
+        <div class="text-center row">
+            <p>Bienbenido a Reciclapp</p>
+            <p>para hacer uso de esta app debes registrarte primero</p>
+        </div>
+        <div class="row">
+            <img src="../img/welcome-img.svg">
+        </div>
+        <br>
+        <div class="text-center row">
+            <p> Empieza a medir tu aporte real al medio ambiente</p>
+            <div class="col-lg-6 col-sm-6"><a href="#"><img class="social-media-btn" src="../img/facebook.svg"></a></div>
+            <div class="col-lg-6 col-sm-6"><a href="#"><img class="social-media-btn" src="../img/google-plus.svg"></a></div>
+        </div>
+        <br>
+        <div class="row">
+            <a class="btn btn-success col-lg-12" href="sigIn.html"><i class="glyphicon glyphicon-globe">  Registrarte</i></a>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<!--<script src="js/bootstrap.min.js"></script>-->
+
+<script src="../logic/index.js"></script>
+
+
+</body>
+</html>

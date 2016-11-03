@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 614.7 39.8" style="enable-background:new 0 0 614.7 39.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#080509;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#FEFEFD;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'PTSans-Caption';}
+	.st4{font-size:15px;}
+	.st5{fill:#F9F9F9;}
+</style>
+<rect class="st0" width="614.7" height="39.8"/>
+<g id="Icons_with_numbers">
+	<g id="Group" transform="translate(-816.000000, -48.000000)">
+		<path id="Rectangle_147" class="st1" d="M1387.1,63.6v10.5h23.5V63.6H1387.1z M1387.1,61.9h23.5c1,0,1.8,0.8,1.8,1.7v1.8h1.8v7
+			h-1.8v1.8c0,1-0.8,1.7-1.8,1.7h-23.5c-1,0-1.8-0.8-1.8-1.7V63.6C1385.3,62.7,1386.1,61.9,1387.1,61.9z M1388.9,65.4h14.5v7h-14.5
+			V65.4z"/>
+	</g>
+</g>
+<text transform="matrix(1.0842 0 0 1.02 13.7676 25.3936)" class="st2 st3 st4">10:00</text>
+<path class="st5" d="M503,13.3c-4.1,0-7.8,1.6-10.4,4.2l-2.1-2.1c3.2-3.1,7.7-5.1,12.6-5.1c4.9,0,9.3,1.9,12.6,5.1l-2.1,2.1
+	C510.7,14.9,507,13.3,503,13.3L503,13.3z M504.5,27.1c0,0.8-0.7,1.5-1.5,1.5c-0.8,0-1.5-0.6-1.5-1.5c0-0.8,0.7-1.5,1.5-1.5
+	C503.8,25.7,504.5,26.3,504.5,27.1L504.5,27.1z M498.1,22.8c1.2-1.2,3-2,4.9-2c1.9,0,3.6,0.7,4.9,2l-2.1,2.1
+	c-0.7-0.7-1.7-1.1-2.8-1.1c-1.1,0-2.1,0.4-2.8,1.1L498.1,22.8L498.1,22.8z M494.2,19.1c2.2-2.2,5.3-3.5,8.7-3.5s6.5,1.3,8.7,3.5
+	l-2.1,2.1c-1.7-1.6-4-2.7-6.6-2.7c-2.6,0-4.9,1-6.6,2.7L494.2,19.1L494.2,19.1z"/>
+<g id="Page-1">
+	<g id="Icons-Device" transform="translate(-86.000000, -168.000000)">
+		<g id="signal-cellular-3-bar" transform="translate(86.000000, 168.000000)">
+			<path id="Shape" class="st2" d="M530,29.1h20.7v-20L530,29.1L530,29.1z M548.6,27.1h-3.4v-9.8l3.4-3.4V27.1L548.6,27.1z"/>
+		</g>
+	</g>
+</g>
+</svg>
