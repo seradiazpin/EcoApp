@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>EcoApp</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../fonts/glyphicons-halflings-regular.svg">
+    <link rel="stylesheet" href="../css/devices.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="text-center">
+<button id="fixedbutton" class="btn btn-success" onclick="deviceView()"><i class="glyphicon glyphicon-phone"> </i>Device View</button>
+<div id="device-container">
+    <div id="device-screen" class="white-background container-fluid">
+        <!-- header -->
+        <div class="row android-header">
+            <h1 class="text-center fredoka-font">Registro</h1>
+        </div>
+        <!-- Content -->
+        <div class="text-center row">
+            <form class="form-horizontal" action='' method="POST">
+                <fieldset>
+                    <div class="control-group">
+                        <!-- Username -->
+                        <label class="control-label"  for="username">Username</label>
+                        <div class="controls">
+                            <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+                            <p class="help-block">Nombre de usuario puede contener numeros y letras, sin espacios</p>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <!-- E-mail -->
+                        <label class="control-label" for="email">E-mail</label>
+                        <div class="controls">
+                            <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+                            <p class="help-block">Email asociado a la cuenta</p>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <!-- Password-->
+                        <label class="control-label" for="password">Password</label>
+                        <div class="controls">
+                            <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+                            <p class="help-block">Contraceña minimo 4 letras</p>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <!-- Password -->
+                        <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+                        <div class="controls">
+                            <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+                            <p class="help-block">Confirmar contraceña</p>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <!-- Button -->
+                        <div class="controls">
+                            <a class="btn btn-success" onclick="register()" >Register</a>
+                        </div>
+                    </div>
+                </fieldset>
+
+            </form>
+        </div>
+
+
+    </div>
+</div>
+<script src="../js/jquery-3.1.1.min.js"></script>
+<!--<script src="js/bootstrap.min.js"></script>-->
+
+<script src="../logic/index.js"></script>
+
+
+</body>
+</html>
