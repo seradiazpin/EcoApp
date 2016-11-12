@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,11 +12,12 @@
     <link rel="stylesheet" href="../fonts/glyphicons-halflings-regular.svg">
     <link rel="stylesheet" href="../css/devices.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animate.css">
 </head>
 <body class="text-center">
 <button id="fixedbutton" class="btn btn-success" onclick="deviceView()"><i class="glyphicon glyphicon-phone"> </i>Device View</button>
 <div id="device-container">
-    <div id="device-screen" class="white-background container-fluid">
+    <div id="device-screen" class="container-fluid menu-style ">
         <!-- header -->
         <div class="row android-header">
             <div class="col-sm-10">
@@ -24,31 +26,61 @@
             </div>
         </div>
         <!-- Content -->
-        <br>
-        <div class="text-center row">
-            <div class="col-sm-6">
+        <div class="scroll-div">
+            <br>
+            <div class="text-center row menu-bar">
                 <a href="map.html">
-                <img  class="img-responsive" src="http://placekitten.com/200/200">
+                <div class="col-sm-5 menu-item-map img-rounded">
+                    <object type="image/svg+xml" id="map-icon" class="img-responsive my-svg" data="../img/menu-icons/map-icon.svg"></object>
+                    <br>
+                    <div class="white-panel row">
+                        <h6 >Mapa</h6>
+                    </div>
+                </div>
+                </a>
+                <div class="col-sm-2"></div>
+                <a href="map.html">
+                    <div class="col-sm-5 menu-item-calc img-rounded">
+                        <object type="image/svg+xml" class="img-responsive" data="../img/menu-icons/calc-icon.svg"></object>
+                        <br>
+                        <div class="white-panel row">
+                            <h6 >Eco Calculadora</h6>
+                        </div>
+                    </div>
                 </a>
             </div>
-            <div class="col-sm-6">
-                <img class="img-responsive" src="http://placekitten.com/200/200">
+            <br>
+            <div class="text-center row menu-bar ">
+                <a href="map.html">
+                    <div class="col-sm-5 menu-item-stat img-rounded">
+                        <object type="image/svg+xml"class="img-responsive" data="../img/menu-icons/statistic-icon.svg"></object>
+                        <br>
+                        <div class="white-panel row">
+                            <h6 >Estadisticas</h6>
+                        </div>
+                    </div>
+                </a>
+                <div class="col-sm-2"></div>
+                <a href="map.html">
+                <div class="col-sm-5 menu-item-share img-rounded">
+                    <object type="image/svg+xml" class="img-responsive" data="../img/menu-icons/share-icon.svg"></object>
+                    <br>
+                    <div class="white-panel row">
+                        <h6 >Compartir</h6>
+                    </div>
+                </div>
+                </a>
             </div>
-        </div>
-        <br>
-        <div class="text-center row">
-            <div class="col-sm-6">
-                <img  class="img-responsive" src="http://placekitten.com/200/200">
-            </div>
-            <div class="col-sm-6">
-                <img class="img-responsive" src="http://placekitten.com/200/200">
-            </div>
-        </div>
-
-        <br>
-        <div class="text-center row">
-            <div class="col-sm-12">
-                <img  class="img-responsive" src="http://placekitten.com/300/100">
+            <br>
+            <div class="text-center row menu-item-tip menu-bar img-rounded">
+                <div class="col-sm-4 ">
+                    <a href="map.html">
+                        <object type="image/svg+xml" data="../img/menu-icons/tips-icon.svg"></object>
+                    </a>
+                </div>
+                <div class="col-sm-8 white-panel">
+                    <h1>Eco Tips</h1>
+                </div>
             </div>
         </div>
     </div>
@@ -57,8 +89,8 @@
 <script src="../js/jquery-3.1.1.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../logic/index.js"></script>
-<script src="../logic/test.js"></script>
 
 
 </body>
 </html>
+

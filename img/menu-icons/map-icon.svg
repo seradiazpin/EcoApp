@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.9 153.9">
+    <defs>
+        <link href="../../css/animate.css" type="text/css" rel="stylesheet"
+              xmlns="http://www.w3.org/1999/xhtml"/>
+        <style>
+            .cls-1{fill:#4e5b71}.cls-2{fill:#72a9c7}.cls-3{opacity:.2}.cls-4{fill:#221e1f}.cls-5{fill:#fff}.cls-6{fill:#bd5a5a}
+
+        </style>
+    </defs>
+    <title>
+        map-icon
+    </title>
+    <g id="Capa_2" class="" data-name="Capa 2">
+        <g id="Capa_1-2" data-name="Capa 1">
+            <g id="Layer_1" data-name="Layer 1">
+                <circle class="cls-1" cx="76.95" cy="76.95" r="76.95"/>
+                <circle class="cls-2" cx="76.95" cy="76.95" r="52.9"/>
+                <g class="cls-3 ">
+                    <path class="cls-4" d="M77 38.48a43.28 43.28 0 1 1-43.33 43.28A43.33 43.33 0 0 1 77 38.48zm0-9.62a52.9 52.9 0 1 0 52.9 52.9A52.9 52.9 0 0 0 77 28.86z"/>
+                </g>
+                <path class="cls-5" d="M77 33.67A43.28 43.28 0 1 1 33.67 77 43.33 43.33 0 0 1 77 33.67M77 24a52.9 52.9 0 1 0 52.85 53A52.9 52.9 0 0 0 77 24z"/>
+                <g class="cls-3">
+                    <path class="cls-4" d="M100.54 62.31l-7 11.19L88.9 81c0 .26-12.47 12.75-12.73 12.73l-7.47 4.66-11.19 7a3 3 0 0 1-1.59.46 3 3 0 0 1-2.13-.88 3 3 0 0 1-.42-3.72l7-11.19L65 82.55c0-.27 12.47-12.76 12.73-12.74l7.47-4.66 11.19-7a3 3 0 0 1 4.14 4.15zm-29.6 19.45a6 6 0 1 0 6-6 6 6 0 0 0-6 6z"/>
+                </g>
+                <path class="cls-6" d="M100.54 57.5l-7 11.19-4.64 7.47c0 .26-12.47 12.75-12.73 12.73l-7.47 4.66-11.19 7a3 3 0 0 1-1.59.46 3 3 0 0 1-2.13-.88 3 3 0 0 1-.42-3.72l7-11.19L65 77.74C65 77.47 77.47 65 77.74 65l7.47-4.66 11.19-7a3 3 0 0 1 4.14 4.15zM70.94 77a6 6 0 1 0 6-6 6 6 0 0 0-6 6z"/>
+                <g class="cls-3">
+                    <circle class="cls-4" cx="76.95" cy="81.76" r="12.02"/>
+                </g>
+                <circle class="cls-5" cx="76.95" cy="76.95" r="12.02"/>
+            </g>
+        </g>
+    </g>
+</svg>
