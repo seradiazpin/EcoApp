@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.47 164.47">
+    <defs>
+        <style>
+            .cls-1{fill:#efeded}.cls-2{fill:#53a168}.cls-3{fill:#38995a}.cls-4{fill:#3d8cc1}.cls-5{fill:#2c78ac}.cls-6{fill:#c75043}.cls-7{fill:#b53c2e}
+        </style>
+    </defs>
+    <title>
+        statistic-icon
+    </title>
+    <g id="Capa_2" data-name="Capa 2">
+        <g id="Capa_1-2" data-name="Capa 1">
+            <circle class="cls-1" cx="82.23" cy="82.23" r="82.23" id="Layer_2" data-name="Layer 2"/>
+            <g id="Layer_1" data-name="Layer 1">
+                <path class="cls-2" d="M68.62 37.82v88.66c0 1.77 6.33 3.21 14.13 3.21s14.13-1.44 14.13-3.21V37.82z"/>
+                <ellipse class="cls-3" cx="82.75" cy="37.98" rx="14.13" ry="3.21"/>
+                <path class="cls-4" d="M32 72.52v53.77c0 1.77 6.33 3.21 14.13 3.21s14.13-1.44 14.13-3.21V72.52z"/>
+                <ellipse class="cls-5" cx="46.13" cy="72.52" rx="14.13" ry="3.21"/>
+                <path class="cls-6" d="M105.24 50.24v76.05c0 1.77 6.33 3.21 14.13 3.21s14.13-1.44 14.13-3.21V50.24z"/>
+                <ellipse class="cls-7" cx="119.37" cy="50.24" rx="14.13" ry="3.21"/>
+            </g>
+        </g>
+    </g>
+</svg>

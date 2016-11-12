@@ -60,5 +60,9 @@ function register() {
     window.location="../views/mainmenu.html";
 }
 
+$('#map-icon').hover(
+    function(){ $(this).addClass('animated rotateIn') },
+    function(){ $(this).removeClass('animated rotateIn') }
+)
 /*$('device-container').addClass('marvel-device nexus5 center-block')
     .removeClass('container');*/

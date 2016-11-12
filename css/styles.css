@@ -1,5 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 
+.white-panel{
+    color: black;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu-style{
+    background-color: yellowgreen;
+}
+
+.menu-bar{
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
+}
+.menu-item-map{
+    background-color: #8ebecd;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-item-calc{
+    background-color: #cd7154;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-item-stat{
+    background-color: #cdcc58;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.menu-item-share{
+    background-color: #cd96c7;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-item-tip{
+    background-color: #5e5dcd;
+}
+
+
 .white-background{
     background-color: white;
 }
@@ -46,7 +96,7 @@ h1.fredoka-font{
 .scroll-div{
     overflow-y: auto;
     max-width:320px;
-    max-height:568px;
+    max-height:440px;
 }
 
 
