@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>EcoApp</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../fonts/glyphicons-halflings-regular.svg">
+    <link rel="stylesheet" href="../css/devices.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="text-center">
+<button id="fixedbutton" class="btn btn-success" onclick="deviceView()"><i class="glyphicon glyphicon-phone"> </i>Device View</button>
+<div id="device-container">
+    <div id="device-screen" class="white-background container-fluid">
+        <!-- header -->
+        <div class="row android-header">
+            <button class="col-sm-4 btn text-center cen" onclick="changeTab(1)">
+                Agregar
+                <br>
+                reciduos
+            </button>
+            <button class="col-sm-4 btn text-center" onclick="changeTab(2)">
+                <br>
+                Huellas
+            </button>
+            <a class="col-sm-4 btn text-center">
+                <br>
+                Total
+            </a>
+
+
+        </div>
+        <!-- Content -->
+        <br>
+        <div id="content">
+
+        </div>
+
+    </div>
+</div>
+
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/d3.v3.min.js"></script>
+<script src="../js/liquidFillGauge.js"></script>
+<script src="../js/viz.v1.js"></script>
+<script src="../logic/index.js"></script>
+<script src="../logic/test.js"></script>
+<script src="../logic/calculator.js"></script>
+</body>
+</html>
