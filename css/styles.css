@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+}
+
+.user-btn{
+    margin-top: 10px;
+    border-right: 15px;
+    background-color: #aefffa;
+    border-radius: 100%;
+    padding: 15px;
+}
+
 .white-panel{
     color: black;
     background-color: white;
@@ -95,7 +119,7 @@ h1.fredoka-font{
 
 .scroll-div{
     overflow-y: auto;
-    max-width:320px;
+    max-width:100%;
     max-height:440px;
 }
 
