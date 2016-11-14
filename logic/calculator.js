@@ -58,3 +58,17 @@ function cofootprint() {
     config1.waveCount = 1;
     var gauge3 = loadLiquidFillGauge("footprint", 60.1, config1);
 }
+var id = 0;
+function appendElementList(){
+    var name = $("#name-rec").val(),
+        typeRe = $("#typeRec").val(),
+        num = $("#number-cos").val();
+    $("#recycle-list").append("<div id='num-"+id+"' class='row'> <div class='col-sm-4'> <p>"+name+"</p> </div> " +
+        "<div class='col-sm-4'> <p>"+typeRe+"</p> </div> <div class='col-sm-2'> <p>"+num+"</p> </div> <div class='col-sm-2'> <p></p>" +
+        "<button onclick='removeElementList("+id+")'><i class='glyphicon glyphicon-minus-sign'></i> </div> </div> </button> ");
+    id++;
+}
+
+function removeElementList(id) {
+    $("#num-"+id).remove();
+}

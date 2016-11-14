@@ -8,19 +8,19 @@
         <div class='col-sm-8'>
             <ul class='list-group'>
                 <li class='list-group-item list-group-item-info' style='padding: 0%'>
-                    <p><i class='glyphicon glyphicon-file'></i> Papel = <span id='paper-amount'></span></p>
+                    <p><i class='glyphicon glyphicon-file'></i> Papel = 15<span id='paper-amount'></span></p>
                 </li>
                 <li class='list-group-item list-group-item-danger' style='padding: 0%'>
-                    <p><i class='glyphicon glyphicon-baby-formula'></i> Plastico = <span id='plastic-amount'></span></p>
+                    <p><i class='glyphicon glyphicon-baby-formula'></i> Plastico = 10<span id='plastic-amount'></span></p>
                 </li>
                 <li class='list-group-item list-group-item-warning' style='padding: 0%'>
-                    <p><i class='glyphicon glyphicon-paperclip'></i> Metal = <span id='metal-amount'></span></p>
+                    <p><i class='glyphicon glyphicon-paperclip'></i> Metal = 17<span id='metal-amount'></span></p>
                 </li>
                 <li class='list-group-item list-group-item-success' style='padding: 0%'>
-                    <p><i class='glyphicon glyphicon-leaf'></i> Organico = <span id='organic-amount'></span></p>
+                    <p><i class='glyphicon glyphicon-leaf'></i> Organico = 5<span id='organic-amount'></span></p>
                 </li>
                 <li class='list-group-item' style='padding: 0%'>
-                    <p><i class='glyphicon glyphicon-asterisk'></i> Otro = <span id='other-amount'></span></p>
+                    <p><i class='glyphicon glyphicon-asterisk'></i> Otro = 12<span id='other-amount'></span></p>
                 </li>
             </ul>
         </div>
@@ -28,10 +28,10 @@
     <hr>
     <div class='row'>
         <div class='col-sm-4'>
-            <input  class='form-control' type='text'>
+            <input id="name-rec" class='form-control' type='text'>
         </div>
         <div class='col-sm-4'>
-            <input list='browsers'  class='form-control' name='browser' placeholder='papel'>
+            <input list='browsers' id="typeRec" class='form-control' name='browser' placeholder='papel'>
             <datalist id='browsers'>
                 <option value='Papel'>
                 <option value='Plastico'>
@@ -41,30 +41,15 @@
             </datalist>
         </div>
         <div class='col-sm-2' style='padding: 0%'>
-            <input class='form-control' type='number'>
+            <input id="number-cos"class='form-control' type='number'>
         </div>
         <div class='col-sm-2'>
             <p></p>
-            <i class='glyphicon glyphicon-plus-sign'></i>
+            <button onclick="appendElementList()"><i class='glyphicon glyphicon-plus-sign'></i></button>
         </div>
     </div>
     <hr>
     <div id='recycle-list'>
-        <div class='row'>
-            <div class='col-sm-4'>
-                <p>Nombre</p>
-            </div>
-            <div class='col-sm-4'>
-                <p>Tipo</p>
-            </div>
-            <div class='col-sm-2'>
-                <p>5</p>
-            </div>
-            <div class='col-sm-2'>
-                <p></p>
-                <i class='glyphicon glyphicon-minus-sign'></i>
-            </div>
-        </div>
     </div>
     <hr>
     <div class='row'>
