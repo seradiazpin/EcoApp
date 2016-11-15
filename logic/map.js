@@ -15,17 +15,18 @@ $(function () {
         var map = new google.maps.Map(mapCanvas, mapOptions);
 
         var markerImage = '../img/marker.png';
-
+        var locationMark = new google.maps.LatLng(4.637867, -74.084003);
         var marker = new google.maps.Marker({
-            position: location,
+            position: locationMark,
             map: map,
             icon: markerImage
         });
 
         var contentString = '<div class="info-window">' +
-            '<h3>Info Window Content</h3>' +
+            '<h3>Punto de canecas</h3>' +
             '<div class="info-content">' +
-            '<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>' +
+            '<p>Canecas de residuos de cualquier tipo, ubicados al frente del CyT</p>'+'' +
+            '<img class="img-responsive center-block" src="../img/caneca.png">'+
             '</div>' +
             '</div>';
 

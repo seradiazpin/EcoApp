@@ -16,13 +16,33 @@ hr {
     border-bottom: 1px solid #ffffff;
 }
 
-.user-btn{
-    margin-top: 10px;
-    border-right: 15px;
-    background-color: #aefffa;
-    border-radius: 100%;
-    padding: 15px;
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
 }
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}
+
 
 .white-panel{
     color: black;
@@ -32,7 +52,7 @@ hr {
 }
 
 .menu-style{
-    background-color: yellowgreen;
+    background-color: #F1F8E9;
 }
 
 .menu-bar{
@@ -41,21 +61,21 @@ hr {
     text-align: left;
 }
 .menu-item-map{
-    background-color: #8ebecd;
+    background-color: #A5D6A7;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .menu-item-calc{
-    background-color: #cd7154;
+    background-color: #A5D6A7;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .menu-item-stat{
-    background-color: #cdcc58;
+    background-color: #81D4FA;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -63,14 +83,14 @@ hr {
 }
 
 .menu-item-share{
-    background-color: #cd96c7;
+    background-color: #81D4FA;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .menu-item-tip{
-    background-color: #5e5dcd;
+    background-color: #80DEEA;
 }
 
 
@@ -89,7 +109,8 @@ h1.fredoka-font{
 }
 .android-header{
 
-    background-color: #91b93b;
+    background-color: #8BC34A
+;
     text-align: center;
 }
 
